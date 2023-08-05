@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body { 
+    justify-content: space-around;
+    font-size: 100%;
+    background:#23024b;
+
+}
+header{
+    min-width: 1000px;
+}
+.cabecalho{
+    background:#7302f3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    border-bottom: 0.4px solid#000000;
+    font-family: "Gill Sans", sans-serif;
+}   
+.menu{
+    margin-left: 50px;
+    gap: 32px;
+    color: rgb(229, 226, 226);
+}
+.menu:hover{
+    color: red;
+} 
+.texto {
+    margin-top: 150px;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    color:white;
+    padding-left: 320px;
+    display: flex;
+    flex-direction: row;
+}
+.imagem-principal{
+    height: 500px;
+    padding-left:200px;
+    margin-top: -80px;
+}
+
+.butao {
+  padding: 20px 30px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+  margin-left: 325px;
+}
+
+.butao {
+  background: rgb(96, 55, 245);
+  box-shadow: 0 0 30px rgb(68, 0, 255);
+}
+
+.butao:hover {
+  box-shadow: 0 0 5px    rgb(81, 0, 255),
+              0 0 25px   rgb(81, 0, 255),
+              0 0 50px   rgb(81, 0, 255),
+              0 0 100px  rgb(81, 0, 255);
+}
+.footer{
+    bottom: 10px;
+    padding-left: 320px;
+    padding-top: 200px;
+}
+.img-footer{
+    width: 50px;
+
+}
