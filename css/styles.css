@@ -20,7 +20,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 24px;
+    padding: 15px;
     border-bottom: 0.4px solid#000000;
     font-family: "Gill Sans", sans-serif;
 }   
@@ -43,9 +43,10 @@ header{
     flex-direction: row;
 }
 .imagem-principal{
-    height: 500px;
+    height: 450px;
     padding-left:300px;
     margin-top: -80px;
+
 }
 
 .butao {
@@ -76,9 +77,5 @@ header{
 .footer{
     bottom: 10px;
     padding-left: 320px;
-    padding-top: 200px;
-}
-.img-footer{
-    width: 50px;
-
+    padding-top: 60px;
 }
